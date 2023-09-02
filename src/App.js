@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import React, { useEffect } from "react";
 import StartPage from "./components/StartPage";
 import { fetchAPIForData } from "./api";

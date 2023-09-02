@@ -1,5 +1,5 @@
 {
-  "name": "job-listing",
+  "name": "quiz-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -28,9 +28,6 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -42,9 +39,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "dotenv": "^8.2.0"
   },
   "volta": {
     "node": "16.18.1"
