@@ -1,0 +1,7 @@
+export const SET_QUIZ_START = 'SET_QUIZ_START';
+export const SET_QUIZ_END = 'SET_QUIZ_END';
+export const FETCH_QUESTIONS = 'FETCH_QUESTIONS';
+export const SET_CURRENT_QUESTION = 'SET_CURRENT_QUESTION';
+export const SELECTED_OPTION = 'SELECTED_OPTION';
+export const NEXT_ANSWER = 'NEXT_ANSWER';
+export const TICK_TIMER = 'TICK_TIMER';
