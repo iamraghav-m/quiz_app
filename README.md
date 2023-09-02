@@ -16,7 +16,7 @@ In this tutorial, we will be exploring a **Quiz App**. Developed with React.js. 
 
 - Local State Management using [Hooks][hooks]
 - 
-*_ Hooks are involved in every opeartion that is taking place in the App _*
+*_ Hooks are involved in every operation that is taking place in the App _*
 
 ## 💻 Pre-requisites
 - Basics Knowledge about HTML, CSS & JavaScript
