@@ -149,6 +149,41 @@ Display quiz questions with multiple-choice options and their states
 
 ![img_3.png](public/img/img_3.png)
 
+## Challenges faced and solution
+
+- State Management:
+  `Challenge`: Managing the application's state, including user answers, current question, timer, which question visited and attempted and the navigate and save the result can become complex as the app.<br/>
+  `Solution`: Consider using Redux or React Context to centralize state management. Create clear, modular reducers to manage different aspects of the app's state
+
+- Timer Implementation:
+
+  `Challenge`: Implementing a timer that counts down and auto-submits the quiz can be challenging, especially handling interruptions.<br/>
+  `Solution`: Use setInterval to manage the timer. Handle tab/window switches by listening to the Page Visibility API events.
+
+- Responsive Design:
+
+  `Challenge`: Making the app responsive and ensuring it works well on different screen sizes and devices can be time-consuming.<br/>
+  `Solution`: Use CSS frameworks like Styled components or CSS flex/Grid to simplify responsive design. Test the app on various devices and browsers to ensure compatibility.
+
+- Error Handling:
+
+  `Challenge`: Handling errors gracefully, such as network errors when fetching questions or unexpected runtime errors, is crucial.<br/>
+  `Solution`: Implement error handling mechanisms, like try-catch blocks for network requests. Display user-friendly error messages when something goes wrong.
+
+- Performance Optimization:
+
+  `Challenge`: Ensuring that the app performs well, even with a large number of questions, can be a concern.<br/>
+  `Solution`: Profile the app's performance with tools like React DevTools and address bottlenecks by optimizing render cycles, using memoization, and avoiding unnecessary re-renders.
+
+- Deployment:
+
+  `Challenge`: Deploying the app to a hosting platform and configuring it for production can be a challenge.<br/>
+  `Solution`: Use hosting services like Netlify, Vercel, or GitHub Pages. Configure environment variables, optimize assets, and set up CI/CD pipelines for automated deployments.
+
+```text
+Each challenge can be overcome with careful planning, coding, and sometimes, a bit of research. Building a quiz app in React is a great project for improving your development skills, and overcoming these challenges will help me become a better developer.
+```
+
 ## Author
 
 #### Raghvendra Modanwal
