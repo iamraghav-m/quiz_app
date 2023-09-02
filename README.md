@@ -9,6 +9,8 @@ Start the development server:
 - npm start
 - Access the application in your web browser at http://localhost:3000.
 - Take a quiz, answer questions, and navigate through the quiz.
+- In last, will get report page for how many you attempted or right answer with a proper report should display each question with the user's answer and the correct answer side by
+  side or in a format that is easy to compare.
 
 ## 📜 Overview
 
